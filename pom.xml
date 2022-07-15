@@ -59,6 +59,7 @@
 	</build>
 
 	<scm>
+		<url>https://github.com/naman2807/pet-clinic</url>
 		<developerConnection>scm:git:https://github.com/naman2807/pet-clinic.git</developerConnection>
 	</scm>
 </project>
