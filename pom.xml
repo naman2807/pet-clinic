@@ -59,6 +59,5 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/naman2807/pet-clinic.git</developerConnection>
-	  <tag>naman2807</tag>
   </scm>
 </project>
