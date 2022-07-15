@@ -58,4 +58,7 @@
 		</plugins>
 	</build>
 
+	<scm>
+		<developerConnection>scm:git:git@github.com:naman2807/pet-clinic.git</developerConnection>
+	</scm>
 </project>
