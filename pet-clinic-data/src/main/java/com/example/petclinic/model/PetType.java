@@ -8,5 +8,5 @@ package com.example.petclinic.model;
  * Date: 15-07-2022
  */
 
-public class PetType {
+public class PetType extends BaseEntity{
 }
