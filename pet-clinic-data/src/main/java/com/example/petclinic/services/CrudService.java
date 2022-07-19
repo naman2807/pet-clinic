@@ -1,7 +1,5 @@
 package com.example.petclinic.services;
 
-import com.example.petclinic.model.Owner;
-
 import java.util.Set;
 
 /**
@@ -9,9 +7,13 @@ import java.util.Set;
  * User ID: naman2807
  * Package Name: com.example.petclinic.services
  * Project Name: pet-clinic
- * Date: 16-07-2022
+ * Date: 18-07-2022
  */
 
-public interface OwnerService extends CrudService<Owner, Long>{
-    Owner findByLastname(String lastname);
+public interface CrudService<T, ID> {
+    Set<T> findAll();
+    T findById(ID id);
+    T save(T object);
+    T delete(T object);
+    T deleteById(ID id);
 }

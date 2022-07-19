@@ -13,8 +13,5 @@ import java.util.Set;
  * Date: 16-07-2022
  */
 
-public interface PetService {
-    Pet findById(Long id);
-    void save(Pet pet);
-    Set<Pet> findAllPets();
+public interface PetService extends CrudService<Pet, Long> {
 }
